@@ -25,3 +25,27 @@
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/jshint2"]
+	path = bundle/jshint2
+	url = https://github.com/Shutnik/jshint2.vim.git
+[submodule "bundle/vim-blade"]
+	path = bundle/vim-blade
+	url = https://github.com/xsbeats/vim-blade.git
+[submodule "indentLine"]
+	path = indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule "bundle/vim-nerdtree-tabs"]
+	path = bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/vim-easygrep"]
+	path = bundle/vim-easygrep
+	url = https://github.com/dkprice/vim-easygrep.git

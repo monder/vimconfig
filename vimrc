@@ -55,5 +55,7 @@ syntax on
 filetype plugin indent on
 let g:airline_section_z = '%3p%% :%3l:%3c:0x%B'
 
-au BufRead,BufNewFile *.less set filetype=css
 au BufRead,BufNewFile *.iced set filetype=coffee
+au BufRead,BufNewFile *.blade set filetype=jade
+set exrc
+set secure
