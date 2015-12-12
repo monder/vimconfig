@@ -49,3 +49,6 @@
 [submodule "bundle/vim-easygrep"]
 	path = bundle/vim-easygrep
 	url = https://github.com/dkprice/vim-easygrep.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
