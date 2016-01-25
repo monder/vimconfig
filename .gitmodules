@@ -52,6 +52,9 @@
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-systemd-syntax"]
+	path = bundle/vim-systemd-syntax
+	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
 [submodule "bundle/dockerfile"]
 	path = bundle/dockerfile
 	url = git@github.com:ekalinin/Dockerfile.vim.git
