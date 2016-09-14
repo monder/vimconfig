@@ -1,4 +1,35 @@
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+Plug 'vim-scripts/xoria256.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'ervandew/supertab'
+Plug 'bling/vim-airline'
+Plug 'kchmck/vim-coffee-script'
+Plug 'int3/vim-extradite'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'digitaltoad/vim-jade'
+Plug 'groenewege/vim-less'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'Shutnik/jshint2.vim'
+Plug 'xsbeats/vim-blade'
+Plug 'Yggdroot/indentLine'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'dkprice/vim-easygrep'
+Plug 'mileszs/ack.vim'
+Plug 'Matt-Deacalion/vim-systemd-syntax'
+Plug 'ekalinin/Dockerfile.vim'
+Plug 'fatih/vim-go'
+Plug 'cpbills/vim-yaml'
+Plug 'mhinz/vim-startify'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'scrooloose/syntastic'
+Plug 'Shougo/neocomplete.vim'
+Plug 'elzr/vim-json'
+Plug 'hashivim/vim-terraform'
+call plug#end()
+
+"execute pathogen#infect()
 
 set nocompatible
 
@@ -56,6 +87,7 @@ syntax on
 filetype plugin indent on
 let g:airline_section_z = '%3p%% :%3l:%3c:0x%B'
 let g:vim_json_syntax_conceal = 0
+let g:jsx_ext_required = 0
 
 au BufRead,BufNewFile *.iced set filetype=coffee
 au BufRead,BufNewFile *.blade set filetype=jade
